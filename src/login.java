@@ -84,6 +84,7 @@ public class login {
             public void actionPerformed(ActionEvent e){
                 loginFrame.getDefaultCloseOperation();
                 loginFrame.dispose();
+                System.exit(0);
             }
         });
         loginFrame.add(cancel);
